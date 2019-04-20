@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
   rules: {
     // Specify whether double or single quotes should be used in JSX attributes
     // https://eslint.org/docs/rules/jsx-quotes
@@ -255,5 +255,12 @@ module.exports = {
     // Disallow multiple spaces between inline JSX props
     // https://github.com/yannickcr/eslint-plugin-react/blob/ac102885765be5ff37847a871f239c6703e1c7cc/docs/rules/jsx-props-no-multi-spaces.md
     'react/jsx-props-no-multi-spaces': 'error',
+
+    // Make sure the rules around usage of Hooks are followed
+    'react-hooks/rules-of-hooks': 'error',
+
+    // A new ESLint rule that verifies the list of dependencies for Hooks like `useEffect` and similar, protecting against the stale closure pitfalls.
+    // https://github.com/facebook/react/issues/14920
+    'react-hooks/exhaustive-deps': 1, // warn
   },
 };
