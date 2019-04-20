@@ -2,9 +2,9 @@ set -e
 
 echo "Starting NPM publish"
 
-echo "- Setting up auth token for npm"
+# echo "- Setting up auth token for npm"
 # echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN_CI" >> .npmrc
-echo "scope=@kapowaz" >> .npmrc
+# echo "scope=@kapowaz" >> .npmrc
 
 echo "- Comparing local package.json version with version in registry"
 LATEST=$(npm show @kapowaz/eslint-config@$DIST_TAG version)
