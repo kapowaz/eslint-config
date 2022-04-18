@@ -2,7 +2,7 @@
   "name": "@kapowaz/eslint-config",
   "version": "2.0.1",
   "description": "A standard ESLint config for React/TypeScript projects",
-  "repository": "github:kapowaz/components",
+  "repository": "github:kapowaz/eslint-config",
   "license": "UNLICENSED",
   "engines": {
     "node": "14.18.*",
