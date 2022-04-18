@@ -23,3 +23,9 @@ default prettier settings, e.g.
   "singleQuote": true
 }
 ```
+
+## Publishing a new version
+
+Until CI does this for us, you can manually publish with the yarn script `yarn
+ci:publish`; first ensure that the section of the script that emits the `.npmrc`
+file is commented out, and that you have publish permissions locally.
