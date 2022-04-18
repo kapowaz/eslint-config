@@ -1,34 +1,24 @@
 {
   "name": "@kapowaz/eslint-config",
-  "version": "1.1.0",
-  "description": "A standard ESLint config for React and JavaScript projects.",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "A standard ESLint config for React/TypeScript projects",
+  "main": "eslint.config.json",
   "scripts": {
-    "lint": "eslint '**/*.js'",
-    "test": "node ./bin/test.js",
-    "build": "echo 'No build script.'",
     "ci:publish": "sh ./bin/publish.sh"
   },
-  "peerDependencies": {
-    "babel-eslint": "8.x || 9.x || 10.x || 11.x",
-    "eslint": "^5.3.0",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "2.6.2",
-    "eslint-plugin-react": "^7.10.0",
-    "eslint-plugin-react-hooks": "^1.2.0",
-    "prettier": "1.14.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "8.x || 9.x || 10.x || 11.x",
-    "eslint": "^5.3.0",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "2.6.2",
-    "eslint-plugin-react": "^7.10.0",
-    "eslint-plugin-react-hooks": "^1.2.0",
-    "prettier": "1.14.0"
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-i18next": "^3.7.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "prettier": "2.2.1"
   }
 }

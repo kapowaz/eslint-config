@@ -1,0 +1,75 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
+    "plugin:jest/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/react"
+  ],
+  "plugins": [
+    "import",
+    "prettier",
+    "react-hooks",
+    "jest",
+    "simple-import-sort"
+  ],
+  "rules": {
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": false }],
+    "import/order": "off",
+    "react/boolean-prop-naming": [2, {
+      "rule": "^(is|has|should|can|with)[A-Z]([A-Za-z0-9]?)+"
+    }],
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "simple-import-sort/sort": [
+      "error",
+      {
+        "groups": [
+          ["^\\u0000"],
+          ["^react", "^@?(?!kapowaz)\\w"],
+          ["^(@kapowaz)(/.*|$)"],
+          ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
+          ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
+          ["^.+\\.s?css$"]
+        ]
+      }
+    ],
+    "sort-imports": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.config.*"],
+      "rules": {
+        "i18next/no-literal-string": "off"
+      }
+    },
+    {
+      "files": ["**/*.stories.*", "**/*.test.*"],
+      "rules": {
+        "i18next/no-literal-string": "off",
+        "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+      }
+    },
+    {
+      "files": ["**/__fixtures__/**", "**/__mocks__/**", "**/*.mock.*"],
+      "rules": {
+        "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": { "node": { "extensions": [".js", ".jsx", ".ts", ".tsx"] } },
+    "react": { "version": "detect" }
+  }
+}
