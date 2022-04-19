@@ -5,6 +5,11 @@ for React/TypeScript projects.
 
 ## Usage
 
+Add `@kapowaz/eslint-config` as a dev dependency to your project. Note that you
+will also need to install all of the peer dependencies directly in your project
+as well, to ensure these dependencies are available. See this bug for more info:
+https://github.com/eslint/eslint/issues/3458
+
 Create a file called `.eslintrc.json` in the root of your project, containing
 the following:
 
