@@ -27,6 +27,7 @@
     "import/no-duplicates": "error",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": false }],
     "import/order": "off",
+    "jsx-a11y/no-onchange": "off",
     "react/boolean-prop-naming": [2, {
       "rule": "^(is|has|should|can|with)[A-Z]([A-Za-z0-9]?)+"
     }],
