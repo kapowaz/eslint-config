@@ -16,7 +16,8 @@
     "prettier",
     "react-hooks",
     "jest",
-    "simple-import-sort"
+    "simple-import-sort",
+    "sort-exports"
   ],
   "rules": {
     "@typescript-eslint/ban-types": "off",
@@ -46,6 +47,7 @@
         ]
       }
     ],
+    "sort-exports/sort-exports": ["error", {"sortDir": "asc"}],
     "sort-imports": "off"
   },
   "overrides": [

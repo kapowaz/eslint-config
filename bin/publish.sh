@@ -13,7 +13,7 @@ CURRENT=$(node -e 'console.log(require("./package.json").version)')
 if [ "$CURRENT" != "$LATEST" ]
 then
   echo "- Detected a version mismatch."
-  echo "- Publishing to MPM"
+  echo "- Publishing to NPM"
   npm publish && \
   git tag "eslint-config-v${CURRENT}" && \
   git push origin "eslint-config-v${CURRENT}"
