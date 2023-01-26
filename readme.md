@@ -60,7 +60,7 @@ Create `~/Library/Application\ Support/com.fournova.Tower3/environment.plist`:
 ```
 
 Note that the tags for `key` and `string` mustn’t have any whitespace (so
-disable Prettier beforfe saving).
+disable Prettier before saving).
 
 [1]: https://www.git-tower.com/blog/git-hooks-husky/
 
