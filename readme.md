@@ -63,3 +63,23 @@ Note that the tags for `key` and `string` mustn’t have any whitespace (so
 disable Prettier beforfe saving).
 
 [1]: https://www.git-tower.com/blog/git-hooks-husky/
+
+## Notes on semantic-release
+
+This project is relatively simple so can be used as the foundation for adding
+semantic-release to another project. The important steps are as follows:
+
+1. `yarn add -D semantic-release` to add semantic-release to the project root
+2. Install `semantic-release-cli` globally: `yarn global add semantic-release-cli`
+3. Run `semantic-release-cli setup` to begin the setup process
+4. Follow the instructions to login to npmjs.com, and provide Github and Circle
+   CI auth tokens.
+5. Choose 'yes' to add Circle CI `config.yml` file; you can use the config in
+   this project as a template.
+6. Copy .releaserc.json, adding any other static build artifacts that should be
+   committed to git as a result of the release process to the `"assets"` key of
+   the `"@semantic-release/git"` plugin.
+7. Note that the initial release will be based on the version tag, which starts
+   at v1.0.0; if the project already has a released package with a higher
+   version, ensure to tag with that version first, with `git tag
+   v<latest-version-published> && git push --tags origin`
