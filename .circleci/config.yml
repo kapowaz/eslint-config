@@ -1,0 +1,33 @@
+defaults: &defaults
+  docker:
+    - image: 'circleci/node:latest'
+
+version: 2.1
+orbs:
+  aws-cli: circleci/aws-cli@3.1.4
+  node: circleci/node@5.1.0
+
+jobs:
+  release:
+    <<: *defaults
+    steps:
+      - node/install:
+          node-version: v18.13.0
+          install-yarn: true
+      - checkout
+      - run:
+          name: install
+          command: yarn
+      - run:
+          name: release
+          command: yarn semantic-release || true
+
+workflows:
+  version: 2.1
+  test_and_release:
+    jobs:
+      - release:
+          filters:
+            branches:
+              only:
+                - master
