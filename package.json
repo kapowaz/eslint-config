@@ -11,7 +11,8 @@
   },
   "main": "eslint.config.json",
   "scripts": {
-    "ci:publish": "sh ./bin/publish.sh"
+    "ci:publish": "sh ./bin/publish.sh",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.19.0",
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2"
+    "@commitlint/config-conventional": "^17.4.2",
+    "husky": "^8.0.3"
   }
 }
