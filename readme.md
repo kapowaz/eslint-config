@@ -34,3 +34,32 @@ default prettier settings, e.g.
 Until CI does this for us, you can manually publish with the yarn script `yarn
 ci:publish`; first ensure that the section of the script that emits the `.npmrc`
 file is commented out, and that you have publish permissions locally.
+
+## Notes on getting Husky working in Git Tower
+
+See [this guide][1] for details on how to configure Git Tower to avoid this
+error message when attempting to commit:
+
+```
+.husky/commit-msg: line 4: npx: command not found
+husky - commit-msg hook exited with code 127 (error)
+husky - command not found in PATH=/Applications/Xcode.app/Contents/Developer/usr/libexec/git-core:/Applications/Tower.app/Contents/Resources/git-flow:/Applications/Tower.app/Contents/Resources/git-lfs:/usr/bin:/bin:/usr/sbin:/sbin
+```
+
+Create `~/Library/Application\ Support/com.fournova.Tower3/environment.plist`:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PATH</key>
+		<string>/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/Users/bdarlow/.nvm/versions/node/v14.18.1/bin:/Users/bdarlow/.nvm/versions/node/v18.13.0</string>
+	</dict>
+</plist>
+```
+
+Note that the tags for `key` and `string` mustn’t have any whitespace (so
+disable Prettier beforfe saving).
+
+[1]: https://www.git-tower.com/blog/git-hooks-husky/
