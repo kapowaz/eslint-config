@@ -5,7 +5,7 @@
   "repository": "github:kapowaz/eslint-config",
   "license": "UNLICENSED",
   "engines": {
-    "node": "18.13.*",
+    "node": "16.19.*",
     "npm": "please-use-yarn",
     "yarn": ">= 1.22.0"
   },
