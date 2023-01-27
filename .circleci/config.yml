@@ -12,7 +12,7 @@ jobs:
     <<: *defaults
     steps:
       - node/install:
-          node-version: v18.13.0
+          node-version: v16.19.0
           install-yarn: true
       - checkout
       - run:
