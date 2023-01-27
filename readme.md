@@ -35,6 +35,14 @@ Until CI does this for us, you can manually publish with the yarn script `yarn
 ci:publish`; first ensure that the section of the script that emits the `.npmrc`
 file is commented out, and that you have publish permissions locally.
 
+## Setting up commitlint
+
+1. `yarn add husky -D`
+2. `yarn husky install`
+3. `npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'`
+4. Add `"prepare": "husky install"` to `"scripts"` key in `package.json`
+5. Copy `commitlint.config.js` to root of project
+
 ## Notes on getting Husky working in Git Tower
 
 See [this guide][1] for details on how to configure Git Tower to avoid this
