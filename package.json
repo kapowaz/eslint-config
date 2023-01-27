@@ -11,7 +11,6 @@
   },
   "main": "eslint.config.json",
   "scripts": {
-    "ci:publish": "sh ./bin/publish.sh",
     "prepare": "husky install",
     "semantic-release": "semantic-release"
   },
