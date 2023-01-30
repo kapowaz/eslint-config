@@ -20,7 +20,7 @@ jobs:
           command: yarn
       - run:
           name: release
-          command: yarn semantic-release || true
+          command: nvm install 'lts/*' && npx semantic-release || true
 
 workflows:
   version: 2.1
