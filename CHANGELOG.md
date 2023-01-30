@@ -1,3 +1,15 @@
+# [4.0.0-beta.1](https://github.com/kapowaz/eslint-config/compare/v3.0.0...v4.0.0-beta.1) (2023-01-30)
+
+
+### Features
+
+* downgrade to Node 16 ([2b05335](https://github.com/kapowaz/eslint-config/commit/2b0533522b3c1a35d03b7ae7f2ac43cfad86854c))
+
+
+### BREAKING CHANGES
+
+* downgrade Node.js to v16.19.0
+
 # [3.0.0](https://github.com/kapowaz/eslint-config/compare/v2.0.0...v3.0.0) (2023-01-26)
 
 
