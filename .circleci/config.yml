@@ -12,7 +12,7 @@ jobs:
     <<: *defaults
     steps:
       - node/install:
-          node-version: v18.13.0
+          node-version: v16.19.0
           install-yarn: true
       - checkout
       - run:
@@ -20,7 +20,7 @@ jobs:
           command: yarn
       - run:
           name: release
-          command: yarn semantic-release || true
+          command: nvm install 'lts/*' && npx semantic-release || true
 
 workflows:
   version: 2.1

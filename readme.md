@@ -40,7 +40,8 @@ file is commented out, and that you have publish permissions locally.
 1. `yarn add husky -D`
 2. `yarn husky install`
 3. `npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'`
-4. Add `"prepare": "husky install"` to `"scripts"` key in `package.json`
+4. Add `"prepare": "husky install"` to `"scripts"` key in `package.json`. If the
+   package is published from a `dist` directory, this should be `"prepare": "cd .. && husky install"`
 5. Copy `commitlint.config.js` to root of project
 
 ## Notes on getting Husky working in Git Tower
@@ -77,7 +78,9 @@ disable Prettier before saving).
 This project is relatively simple so can be used as the foundation for adding
 semantic-release to another project. The important steps are as follows:
 
-1. `yarn add -D semantic-release` to add semantic-release to the project root
+1. `yarn add -D semantic-release` to add semantic-release to the project root.
+   Important: this step should be skipped if the project uses Node v17 or lower,
+   since semantic-release relies on Node 18.
 2. Install `semantic-release-cli` globally: `yarn global add semantic-release-cli`
 3. Run `semantic-release-cli setup` to begin the setup process
 4. Follow the instructions to login to npmjs.com, and provide Github and Circle
