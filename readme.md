@@ -94,3 +94,7 @@ semantic-release to another project. The important steps are as follows:
    at v1.0.0; if the project already has a released package with a higher
    version, ensure to tag with that version first, with `git tag
    v<latest-version-published> && git push --tags origin`
+
+## Notes on beta releases
+
+TBC
