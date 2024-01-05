@@ -1,3 +1,15 @@
+# [5.0.0-beta.1](https://github.com/kapowaz/eslint-config/compare/v4.0.0...v5.0.0-beta.1) (2024-01-05)
+
+
+### Features
+
+* upgrade all major dependencies to their latest version ([2a01cbb](https://github.com/kapowaz/eslint-config/commit/2a01cbb987408386c6f755e91ca4deb21c03c93e))
+
+
+### BREAKING CHANGES
+
+* major version changes to a lot of stuff including TypeScript, ESLint and Prettier
+
 # [4.0.0](https://github.com/kapowaz/eslint-config/compare/v3.0.0...v4.0.0) (2023-01-31)
 
 
