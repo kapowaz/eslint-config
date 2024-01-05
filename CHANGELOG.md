@@ -1,3 +1,10 @@
+# [5.0.0-beta.10](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.9...v5.0.0-beta.10) (2024-01-05)
+
+
+### Bug Fixes
+
+* test simplifying the config for simple-import-sort ([aa8c9d4](https://github.com/kapowaz/eslint-config/commit/aa8c9d406fa8486e3d01c7f07b37b74c954f3c48))
+
 # [5.0.0-beta.9](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.8...v5.0.0-beta.9) (2024-01-05)
 
 
