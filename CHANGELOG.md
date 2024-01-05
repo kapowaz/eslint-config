@@ -1,3 +1,10 @@
+# [5.0.0-beta.11](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.10...v5.0.0-beta.11) (2024-01-05)
+
+
+### Bug Fixes
+
+* okay duh ([0d5b9f1](https://github.com/kapowaz/eslint-config/commit/0d5b9f150889b980f4613c237814779139757505))
+
 # [5.0.0-beta.10](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.9...v5.0.0-beta.10) (2024-01-05)
 
 
