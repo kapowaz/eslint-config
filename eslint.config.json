@@ -42,19 +42,8 @@
     ],
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    "simple-import-sort/import": [
-      "error",
-      {
-        "groups": [
-          ["^\\u0000"],
-          ["^react", "^@?(?!kapowaz)\\w"],
-          ["^(@kapowaz)(/.*|$)"],
-          ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
-          ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
-          ["^.+\\.s?css$"]
-        ]
-      }
-    ],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "off",
     "sort-exports/sort-exports": [
       "error",
       { "sortDir": "asc", "sortExportKindFirst": "type" }
