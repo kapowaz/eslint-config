@@ -11,42 +11,38 @@
   },
   "main": "eslint.config.json",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.19.0",
-    "@typescript-eslint/parser": "^4.19.0",
-    "eslint": "^7.22.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-i18next": "^3.7.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jest": "^23.8.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-simple-import-sort": "^5.0.3",
-    "eslint-plugin-sort-exports": "^0.7.0",
-    "prettier": "2.2.1"
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-i18next": "^6.0.3",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^27.6.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-sort-exports": "^0.8.0",
+    "eslint-plugin-storybook": "^0.6.15",
+    "prettier": "2.8.8"
   },
   "peerDependencies": {
-    "eslint-plugin-i18next": "^3.7.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jest": "^23.8.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-simple-import-sort": "^5.0.3",
-    "eslint-plugin-sort-exports": "^0.7.0",
-    "typescript": "^4.3.2"
+    "eslint": "^8.56.0",
+    "prettier": "2.8.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
-    "husky": "^8.0.3"
+    "@semantic-release/npm": "^9.0.0",
+    "husky": "^8.0.3",
+    "typescript": "^5.3.3"
   },
   "publishConfig": {
     "access": "restricted"
