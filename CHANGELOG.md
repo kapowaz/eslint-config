@@ -1,3 +1,10 @@
+# [5.0.0-beta.9](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.8...v5.0.0-beta.9) (2024-01-05)
+
+
+### Bug Fixes
+
+* downgrade eslint-plugin-prettier to 4.2.1 ([ef4c57e](https://github.com/kapowaz/eslint-config/commit/ef4c57efa3fa5412a51043e02e2ed07fc61294d7))
+
 # [5.0.0-beta.8](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.7...v5.0.0-beta.8) (2024-01-05)
 
 
