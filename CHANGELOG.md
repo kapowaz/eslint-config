@@ -1,3 +1,10 @@
+# [5.0.0-beta.5](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.4...v5.0.0-beta.5) (2024-01-05)
+
+
+### Features
+
+* add current prettier version to peerDependencies ([414d231](https://github.com/kapowaz/eslint-config/commit/414d231d0e5c8d6703c97b9aa591784420b9f3de))
+
 # [5.0.0-beta.4](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.3...v5.0.0-beta.4) (2024-01-05)
 
 
