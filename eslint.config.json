@@ -8,9 +8,7 @@
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:storybook/recommended",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/react"
+    "prettier"
   ],
   "plugins": [
     "import",
