@@ -1,3 +1,10 @@
+# [5.0.0-beta.6](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.5...v5.0.0-beta.6) (2024-01-05)
+
+
+### Bug Fixes
+
+* update consolidated prettier config ([f9fec3d](https://github.com/kapowaz/eslint-config/commit/f9fec3da113ad908906bec1b6a034da499250291))
+
 # [5.0.0-beta.5](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.4...v5.0.0-beta.5) (2024-01-05)
 
 
