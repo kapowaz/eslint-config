@@ -36,7 +36,7 @@
     ],
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    "simple-import-sort/sort": [
+    "simple-import-sort/import": [
       "error",
       {
         "groups": [
