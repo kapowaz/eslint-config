@@ -1,3 +1,10 @@
+# [5.0.0-beta.8](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.7...v5.0.0-beta.8) (2024-01-05)
+
+
+### Bug Fixes
+
+* downgrade to prettier 2.8.8 ([3ec7314](https://github.com/kapowaz/eslint-config/commit/3ec7314f2bd5287c5c6bb10d679f48e99879d756))
+
 # [5.0.0-beta.7](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.6...v5.0.0-beta.7) (2024-01-05)
 
 
