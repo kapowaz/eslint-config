@@ -97,4 +97,4 @@ semantic-release to another project. The important steps are as follows:
 
 ## Notes on beta releases
 
-TBC
+Obviously this is fake and will be removed later.
