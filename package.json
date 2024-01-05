@@ -1,6 +1,6 @@
 {
   "name": "@kapowaz/eslint-config",
-  "version": "5.0.0-beta.2",
+  "version": "5.0.0-beta.3",
   "description": "A standard ESLint config for React/TypeScript projects",
   "repository": "github:kapowaz/eslint-config",
   "license": "UNLICENSED",

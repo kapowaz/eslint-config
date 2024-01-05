@@ -1,3 +1,10 @@
+# [5.0.0-beta.3](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.2...v5.0.0-beta.3) (2024-01-05)
+
+
+### Bug Fixes
+
+* re-add peerDependencies ([ac326d7](https://github.com/kapowaz/eslint-config/commit/ac326d726cc1baa676875dbca07196f8f087decf))
+
 # [5.0.0-beta.2](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.1...v5.0.0-beta.2) (2024-01-05)
 
 
