@@ -1,3 +1,10 @@
+# [5.0.0-beta.7](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.6...v5.0.0-beta.7) (2024-01-05)
+
+
+### Bug Fixes
+
+* update simple-import-sort config ([c132a56](https://github.com/kapowaz/eslint-config/commit/c132a5693c1262012e77737f918640cc35ce3b2d))
+
 # [5.0.0-beta.6](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.5...v5.0.0-beta.6) (2024-01-05)
 
 
