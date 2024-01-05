@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/kapowaz/eslint-config/compare/v4.0.0...v5.0.0) (2024-01-05)
+
+
+### Features
+
+* upgrade several major dependencies to their latest version ([3600312](https://github.com/kapowaz/eslint-config/commit/36003120065f03ed16f47b05ed186fc7dae2d275))
+
+
+### BREAKING CHANGES
+
+* Updates ESLint to v8 and TypeScript to v5
+
 # [4.0.0](https://github.com/kapowaz/eslint-config/compare/v3.0.0...v4.0.0) (2023-01-31)
 
 
