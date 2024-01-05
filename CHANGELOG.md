@@ -1,3 +1,10 @@
+# [5.0.0-beta.2](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.1...v5.0.0-beta.2) (2024-01-05)
+
+
+### Features
+
+* fake readme stuff to force a version bump ([5589b94](https://github.com/kapowaz/eslint-config/commit/5589b94d84749c833b6dad18fb6ae58bacc13fb1))
+
 # [5.0.0-beta.1](https://github.com/kapowaz/eslint-config/compare/v4.0.0...v5.0.0-beta.1) (2024-01-05)
 
 
