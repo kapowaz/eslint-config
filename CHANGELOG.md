@@ -1,3 +1,11 @@
+# [5.0.0-beta.4](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.3...v5.0.0-beta.4) (2024-01-05)
+
+
+### Features
+
+* add current ESLint version to peerDependencies ([91d46c6](https://github.com/kapowaz/eslint-config/commit/91d46c62ecb920fa2b072a089656b2c0b69a7d99))
+* add Storybook plugin to config ([1caa9e8](https://github.com/kapowaz/eslint-config/commit/1caa9e8a465093b4c303c77ee1020fd9a0701487))
+
 # [5.0.0-beta.3](https://github.com/kapowaz/eslint-config/compare/v5.0.0-beta.2...v5.0.0-beta.3) (2024-01-05)
 
 
