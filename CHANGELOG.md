@@ -1,3 +1,16 @@
+# [6.0.0](https://github.com/kapowaz/eslint-config/compare/v5.0.0...v6.0.0) (2025-11-08)
+
+
+### Features
+
+* upgrade several major dependencies to their latest version ([9e7c57b](https://github.com/kapowaz/eslint-config/commit/9e7c57b03b08e69a278358c3ace59113dc742bad))
+
+
+### BREAKING CHANGES
+
+* Updates ESLint to v9 and internally used Node version to v24.10+
+
+
 # [5.0.0](https://github.com/kapowaz/eslint-config/compare/v4.0.0...v5.0.0) (2024-01-05)
 
 

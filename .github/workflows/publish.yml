@@ -4,6 +4,7 @@ on:
     types: [published]
 jobs:
   build:
+    environment: publish
     runs-on: ubuntu-latest
     permissions:
       contents: read
