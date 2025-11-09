@@ -31,9 +31,10 @@ default prettier settings, e.g.
 
 ## Publishing a new version
 
-Until CI does this for us, you can manually publish with the yarn script `yarn
-ci:publish`; first ensure that the section of the script that emits the `.npmrc`
-file is commented out, and that you have publish permissions locally.
+To release a new version, create a tag corresponding to the new version and
+update package.json with the version string, then create a new release via the
+GitHub Releases page for the repository. GitHub Actions will take care of the
+rest.
 
 ## Setting up commitlint
 
